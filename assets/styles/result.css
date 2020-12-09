@@ -1,0 +1,27 @@
+.result {
+	display: block;
+}
+
+.result.-hidden {
+	display: none;
+}
+
+.result__text {
+	text-align: center;
+	font-size: 30px;
+}
+
+.result__image {
+	height: 300px;
+	margin: 0 auto;
+}
+
+.result__description {
+	font-size: 19px;
+}
+
+@media screen and (max-width: 767px) {
+	.result__image {
+		width: 100%;
+	}
+}

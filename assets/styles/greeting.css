@@ -1,0 +1,16 @@
+.hello {
+	display: block;
+}
+
+.hello.-hidden {
+	display: none;
+}
+
+.hello__title {
+	font-size: 70px;
+}
+
+.hello__text {
+	font-size: 20px;
+	margin-bottom: 10px;
+}

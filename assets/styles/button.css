@@ -1,0 +1,15 @@
+button {
+	font-size: 23px;
+	background-color: transparent;
+	border: black;
+	color: white;
+}
+
+.questions__answer {
+	margin-top: 3px;
+	font-size: 28px;
+}
+
+.button__restart {
+	margin-top: 5px;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Awesome test</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="./assets/styles/base.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/container.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/content.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/button.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/question.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/greeting.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/result.css">
+	<link rel="stylesheet" type="text/css" href="./assets/styles/variables.css">
+</head>
+<body>
+	<div class="shade"></div>
+
+	<div class="container">
+		<div class="content">
+			<div class="hello" id="js-hello">
+				<div class="container">
+					<h1 class="hello__title">привет здрасте вам бан</h1>
+					<p class="hello__text">Это мой тест, так что давай, нажимай на кнопку и иди проходи</p>
+					<button class="hello__button" onclick="onStartButtonClick()">Да, именно сюда</button>
+				</div>
+			</div>
+
+			<div class="question -hidden" id="js-question">
+				<div class="question__header">
+					<h2 class="question__text" id="js-questionText"></h2>
+					<div class="question__count">
+						<span class="question__number" id="js-questionNumber"></span>/<span id="js-totalQuestionCount"></span>
+					</div>
+				</div>
+
+				<ul class="question__answers" id="js-questionAnswers"></ul>
+			</div>
+
+			<div class="result -hidden" id="js-result">
+				<h2 class="result__text" id="js-resultTitle"></h2>
+				<img src="" alt="" class="result__image" id="js-resultImage">
+
+				<p class="result__description" id="js-resultDescription"></p>
+				<button class="button__restart" onclick="restartTest()">Истчо раз</button>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="./assets/scripts/questions.js"></script>
+	<script type="text/javascript" src="./assets/scripts/resultData.js"></script>
+	<script type="text/javascript" src="./assets/scripts/main.js"></script>
+</body>
+</html>

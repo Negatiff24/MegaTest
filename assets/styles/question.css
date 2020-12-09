@@ -1,0 +1,12 @@
+.question {
+	display: block;
+}
+
+.question.-hidden {
+	display: none;
+}
+
+.question__text {
+	font-size: 30px;
+	margin-bottom: 5px;
+}
