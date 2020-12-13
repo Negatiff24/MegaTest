@@ -70,8 +70,8 @@ function showTestResults() {
 
 	document.getElementById('js-resultShare').innerHTML = VK.Share.button(
 			{
-				url: 'https://solvery.io/',
-				title: 'Омагадэбл! Да я же ' + resultData[resultKey].title + '! Пройди и узнай, кто ты. Не ряльно, кто ты?',
+				url: 'https://github.com/Negatiff24',
+				title: 'Омагадэбл! Да я же ' + resultData[resultKey].title + '! А кто ты? Не ряльно, ты кто?',
 				image: resultData[resultKey].image,
 				noparse: true
 			},
