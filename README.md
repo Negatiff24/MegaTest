@@ -1,1 +1,1 @@
-# [MegaTect](https://negatiff24.github.io/MegaTest/)
+# [MegaTest](https://negatiff24.github.io/MegaTest/)

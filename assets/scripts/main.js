@@ -67,6 +67,19 @@ function showTestResults() {
 	document.getElementById('js-resultTitle').innerText = resultData[resultKey].title;
 	document.getElementById('js-resultDescription').innerText = resultData[resultKey].desc;
 	document.getElementById('js-resultImage').src = resultData[resultKey].image;
+
+	document.getElementById('js-resultShare').innerHTML = VK.Share.button(
+			{
+				url: 'https://solvery.io/',
+				title: 'Омагадэбл! Да я же ' + resultData[resultKey].title + '! Пройди и узнай, кто ты. Не ряльно, кто ты?',
+				image: resultData[resultKey].image,
+				noparse: true
+			},
+			{
+				type: 'round_nocount',
+				text: 'Поставь на свою станицу чёрную метку'
+			}
+		)
 }
 
 function getResultNameByScore(score) {
