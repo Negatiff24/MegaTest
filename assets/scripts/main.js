@@ -70,9 +70,9 @@ function showTestResults() {
 
 	document.getElementById('js-resultShare').innerHTML = VK.Share.button(
 			{
-				url: 'https://github.com/Negatiff24', 
+				url: 'https://negatiff24.github.io/MegaTest/', 
 				title: 'Омагадэбл! Да я же ' + resultData[resultKey].title + '! А кто ты? Не ряльно, ты кто?',
-				image: resultData[resultKey].image,
+				image: 'https://negatiff24.github.io/MegaTest/' + resultData[resultKey].image,
 				noparse: true
 				// да работай блэт
 			},
